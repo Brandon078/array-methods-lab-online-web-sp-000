@@ -1,6 +1,6 @@
 def using_include(array, element)
   array = ["stoop", "never", "host", "nope"]
-  array.include?("took")
+  array.include?("took") ? false : true
   array.include?("stoop")
 end
 
